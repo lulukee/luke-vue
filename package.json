@@ -1,0 +1,26 @@
+{
+  "name": "luke-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "luke": "lib/bin/index.js"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "pinia",
+    "typescript"
+  ],
+  "author": "lulukee",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
