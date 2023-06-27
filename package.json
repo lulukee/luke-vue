@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"node lib/bin/index.js"
   },
   "bin": {
     "luke": "lib/bin/index.js"
@@ -18,7 +18,9 @@
   "author": "lulukee",
   "license": "ISC",
   "dependencies": {
-    "commander": "^11.0.0"
+    "chalk": "^4.1.0",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.3.1"
